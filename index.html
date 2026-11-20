@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sheikh Tanzil-ur-Rehman | Mechanical Engineer</title>
+  <meta name="description" content="Portfolio of Sheikh Tanzil-ur-Rehman, Mechanical Engineer focused on Maintenance & Reliability, Inspection and Condition Monitoring." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>" />
+</head>
+<body>
+  <!-- Animated engineering background -->
+  <div class="bg">
+    <div class="blueprint-grid"></div>
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+    <svg class="gear g1" viewBox="0 0 100 100"><use href="#gear" /></svg>
+    <svg class="gear g2" viewBox="0 0 100 100"><use href="#gear" /></svg>
+    <svg class="gear g3" viewBox="0 0 100 100"><use href="#gear" /></svg>
+  </div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <g id="gear">
+        <path fill="currentColor" d="M43 2h14l2 11a38 38 0 0 1 9 4l9-7 10 10-7 9a38 38 0 0 1 4 9l11 2v14l-11 2a38 38 0 0 1-4 9l7 9-10 10-9-7a38 38 0 0 1-9 4l-2 11H43l-2-11a38 38 0 0 1-9-4l-9 7-10-10 7-9a38 38 0 0 1-4-9L5 57V43l11-2a38 38 0 0 1 4-9l-7-9 10-10 9 7a38 38 0 0 1 9-4zM50 32a18 18 0 1 0 0 36 18 18 0 0 0 0-36z"/>
+      </g>
+    </defs>
+  </svg>
+
+  <!-- Navigation -->
+  <header class="nav glass" id="nav">
+    <a href="#home" class="logo"><span class="logo-gear">⚙</span> STR<span class="accent">.</span></a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content glass reveal">
+        <p class="mono tag">// Mechanical Engineer · MUST 2026</p>
+        <h1>Sheikh <span class="grad">Tanzil-ur-Rehman</span></h1>
+        <p class="typed-line"><span id="typed"></span><span class="caret">|</span></p>
+        <p class="hero-sub">Maintenance &amp; reliability-focused mechanical engineer with hands-on exposure to inspection, condition monitoring and technical documentation.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="Sheikh_Tanzil_ur_Rehman_CV_ATS.pdf" class="btn ghost" download>Download CV</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/sheikh-tanzil-ur-rehman-125092360" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="mailto:sheikhtanzilurrehman@gmail.com" aria-label="Email">@</a>
+          <a href="tel:+923179373515" aria-label="Call">☎</a>
+          <a href="https://wa.me/923179373515" target="_blank" rel="noopener" aria-label="WhatsApp" class="wa"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.94.95-3.48-.22-.36a9.43 9.43 0 1 1 8 4.41zm8.02-17.45A11.32 11.32 0 0 0 12.05.72C5.8.72.72 5.8.72 12.05c0 2 .52 3.95 1.52 5.67L.62 23.6l6.01-1.58a11.3 11.3 0 0 0 5.42 1.38h.01c6.25 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.32-8.02z"/></svg></a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title reveal"><span class="mono">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="glass card reveal">
+          <p>I'm a <strong>Mechanical Engineering graduate</strong> from Mirpur University of Science &amp; Technology (MUST), with a strong foundation in <strong>thermodynamics, heat transfer, fluid mechanics and machine design</strong>.</p>
+          <p>Through internships at <strong>Allied Engineering &amp; Logistics Limited</strong> and <strong>Honda Centre, Rawalpindi</strong>, I gained practical exposure to vehicle inspection, maintenance activities and technical recordkeeping.</p>
+          <p>I'm seeking a <strong>Junior Reliability Engineer</strong> role where I can apply my mechanical knowledge and grow in <strong>Reliability Centered Maintenance (RCM)</strong> and asset integrity.</p>
+        </div>
+        <div class="stats">
+          <div class="glass stat reveal"><span class="num" data-count="2">0</span><span class="lbl">Internships</span></div>
+          <div class="glass stat reveal"><span class="num" data-count="4">0</span><span class="lbl">Engineering Projects</span></div>
+          <div class="glass stat reveal"><span class="num" data-count="2">0</span><span class="lbl">Certifications</span></div>
+          <div class="glass stat reveal"><span class="num" data-count="3">0</span><span class="lbl">Leadership Roles</span></div>
+        </div>
+      </div>
+      <div class="glass card edu reveal">
+        <h3>🎓 Education</h3>
+        <div class="edu-item">
+          <div><strong>Bachelor of Mechanical Engineering</strong><br /><span class="muted">Mirpur University of Science &amp; Technology (MUST), AJK</span></div>
+          <span class="pill">Graduated 2026</span>
+        </div>
+        <div class="edu-item">
+          <div><strong>Higher Secondary Education (Pre-Engineering)</strong><br /><span class="muted">AJK</span></div>
+          <span class="pill">2019 – 2021</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="section-title reveal"><span class="mono">02.</span> Skills &amp; Tools</h2>
+      <div class="tabs reveal" id="skillTabs">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="maint">Maintenance</button>
+        <button class="tab" data-filter="monitor">Monitoring</button>
+        <button class="tab" data-filter="software">Software</button>
+        <button class="tab" data-filter="core">Fundamentals</button>
+        <button class="tab" data-filter="soft">Strengths</button>
+      </div>
+      <div class="chips" id="skillChips">
+        <span class="chip" data-cat="maint">Vehicle Inspection</span>
+        <span class="chip" data-cat="maint">Maintenance Support</span>
+        <span class="chip" data-cat="maint">Servicing Workflows</span>
+        <span class="chip" data-cat="maint">Inspection Procedures</span>
+        <span class="chip" data-cat="maint">Maintenance Coordination</span>
+        <span class="chip" data-cat="maint">Workplace Safety</span>
+        <span class="chip" data-cat="monitor">Temperature Sensors</span>
+        <span class="chip" data-cat="monitor">Arduino Monitoring</span>
+        <span class="chip" data-cat="monitor">LCD Integration</span>
+        <span class="chip" data-cat="monitor">microSD Data Logging</span>
+        <span class="chip" data-cat="monitor">Data Analysis</span>
+        <span class="chip" data-cat="software">SolidWorks</span>
+        <span class="chip" data-cat="software">AutoCAD</span>
+        <span class="chip" data-cat="software">MATLAB</span>
+        <span class="chip" data-cat="software">HAP (HVAC Load Calc)</span>
+        <span class="chip" data-cat="software">SAP</span>
+        <span class="chip" data-cat="software">Microsoft Dynamics AX</span>
+        <span class="chip" data-cat="software">MS Office</span>
+        <span class="chip" data-cat="software">3D Printing</span>
+        <span class="chip" data-cat="core">Thermodynamics</span>
+        <span class="chip" data-cat="core">Heat Transfer</span>
+        <span class="chip" data-cat="core">Fluid Mechanics</span>
+        <span class="chip" data-cat="core">Engineering Mechanics</span>
+        <span class="chip" data-cat="core">Machine Design</span>
+        <span class="chip" data-cat="core">Energy Efficiency</span>
+        <span class="chip" data-cat="soft">Technical Reporting</span>
+        <span class="chip" data-cat="soft">Analytical Thinking</span>
+        <span class="chip" data-cat="soft">Problem Solving</span>
+        <span class="chip" data-cat="soft">Teamwork</span>
+        <span class="chip" data-cat="soft">Communication</span>
+        <span class="chip" data-cat="soft">Attention to Detail</span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2 class="section-title reveal"><span class="mono">03.</span> Experience</h2>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"><svg viewBox="0 0 100 100"><use href="#gear" /></svg></div>
+          <div class="glass card">
+            <h3>Engineering / Fleet Operations Intern</h3>
+            <p class="company">Allied Engineering &amp; Logistics Limited</p>
+            <ul>
+              <li>Supported vehicle inspection and dash-camera audit activities for SLB fleet operations.</li>
+              <li>Assisted with maintenance-related activities and made accurate entries in the AX system.</li>
+              <li>Recorded and maintained tyre identification details for fleet vehicles; used company software for journey management and operational recordkeeping.</li>
+              <li>Developed practical understanding of inspection procedures, maintenance coordination and technical documentation.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"><svg viewBox="0 0 100 100"><use href="#gear" /></svg></div>
+          <div class="glass card">
+            <h3>Mechanical Engineering Intern</h3>
+            <p class="company">Honda Centre, Rawalpindi</p>
+            <ul>
+              <li>Gained practical exposure to automotive workshop operations and vehicle maintenance procedures.</li>
+              <li>Observed vehicle inspection, servicing workflows and basic automotive system checks.</li>
+              <li>Built familiarity with workshop practices, technical procedures and workplace safety.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="section-title reveal"><span class="mono">04.</span> Engineering Projects</h2>
+
+      <!-- FEATURED: Final Year Project -->
+      <article class="glass featured reveal">
+        <div class="featured-ribbon mono">★ FEATURED · FINAL YEAR PROJECT</div>
+        <div class="featured-grid">
+          <div class="featured-text">
+            <h3>TEG &amp; PCM-Based Hybrid Heat Exchanger for Solar Panels</h3>
+            <p>This final-year project focuses on the design and development of a <strong>hybrid solar thermal system</strong> integrating <strong>Thermoelectric Generators (TEG)</strong> and <strong>Phase Change Materials (PCM)</strong> with a solar plate / heat-exchanger configuration. It explores improved utilization of solar thermal energy by combining heat-transfer enhancement, thermal energy storage and thermoelectric energy conversion within one integrated system.</p>
+            <p>TEGs convert a temperature difference directly into electrical energy, while PCMs absorb and store thermal energy during phase transition. Integrating them with a solar thermal plate and heat exchanger, the project investigates improved <strong>thermal management, temperature regulation, energy recovery</strong> and overall utilization of available solar energy.</p>
+
+            <div class="pillars">
+              <div class="pillar"><span class="pi">🔥</span><strong>Heat-Transfer Enhancement</strong><small>Solar plate + heat-exchanger configuration with heat sinks and cooling fans</small></div>
+              <div class="pillar"><span class="pi">🧊</span><strong>Thermal Energy Storage</strong><small>Paraffin PCM absorbs and stores heat during phase transition</small></div>
+              <div class="pillar"><span class="pi">⚡</span><strong>Thermoelectric Conversion</strong><small>TEG modules turn temperature difference into electricity</small></div>
+            </div>
+
+            <h4 class="mono small build-title">// BUILD &amp; MONITORING</h4>
+            <ul class="build-list">
+              <li>Thermoelectric modules, paraffin PCM, heat sinks and cooling fans</li>
+              <li>Temperature sensors with Arduino for real-time monitoring</li>
+              <li>LCD display and microSD data logging to record system performance</li>
+            </ul>
+            <div class="p-tags"><span>TEG</span><span>PCM</span><span>Heat Exchanger</span><span>Solar Thermal</span><span>Arduino</span><span>Temperature Sensors</span><span>Data Logging</span></div>
+          </div>
+
+          <!-- Animated system diagram -->
+          <div class="diagram" aria-label="System diagram: sun heats solar plate, PCM stores heat, TEG generates electricity, heat sink rejects heat">
+            <div class="sun">☀️</div>
+            <div class="rays"><span></span><span></span><span></span></div>
+            <div class="layer l-plate">Solar Plate / Heat Exchanger</div>
+            <div class="flow">▼</div>
+            <div class="layer l-pcm"><span class="melt"></span>PCM · Thermal Storage</div>
+            <div class="flow">▼</div>
+            <div class="layer l-teg">TEG Modules <span class="bolt">⚡ Power</span></div>
+            <div class="flow">▼</div>
+            <div class="layer l-sink">Heat Sink + Fans <span class="fan">✣</span></div>
+            <p class="mono small diagram-cap">Hot side → ΔT → Cold side</p>
+          </div>
+        </div>
+      </article>
+
+      <h3 class="sub-title reveal">Other Projects</h3>
+      <p class="hint reveal mono small">Click a card to view details →</p>
+      <div class="project-grid">
+        <article class="glass project tilt reveal" data-project="1">
+          <div class="p-icon">❄️</div>
+          <span class="pill">HVAC</span>
+          <h3>HVAC System Design</h3>
+          <p>HVAC design for the Mechanical Engineering department using HAP software.</p>
+          <div class="p-tags"><span>HAP</span><span>Load Calc</span></div>
+        </article>
+        <article class="glass project tilt reveal" data-project="2">
+          <div class="p-icon">⚙️</div>
+          <span class="pill">CAD</span>
+          <h3>Vehicle Transmission System</h3>
+          <p>Vehicle transmission system designed in SolidWorks.</p>
+          <div class="p-tags"><span>SolidWorks</span><span>Machine Design</span></div>
+        </article>
+        <article class="glass project tilt reveal" data-project="3">
+          <div class="p-icon">🧪</div>
+          <span class="pill">Prototyping</span>
+          <h3>Glass Prototype</h3>
+          <p>Designed in AutoCAD and manufactured using 3D printing.</p>
+          <div class="p-tags"><span>AutoCAD</span><span>3D Printing</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <h2 class="section-title reveal"><span class="mono">05.</span> Certifications</h2>
+      <div class="cert-grid">
+        <div class="glass cert reveal">
+          <div class="cert-badge">SW</div>
+          <div>
+            <h3>SolidWorks Essentials for Complete Beginners</h3>
+            <p class="muted">SourceCAD · Issued Nov 2026</p>
+          </div>
+        </div>
+        <div class="glass cert reveal">
+          <div class="cert-badge ml">ML</div>
+          <div>
+            <h3>MATLAB Onramp</h3>
+            <p class="muted">MathWorks Training Services · Nov 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-title reveal">Leadership &amp; Activities</h3>
+      <div class="lead-grid">
+        <div class="glass card reveal"><h4>🌿 President, Green Society — MUST</h4><p class="muted small">2025 – 2026</p><p>Led student sustainability initiatives, coordinated team members and communicated with university stakeholders.</p></div>
+        <div class="glass card reveal"><h4>🔧 Director Management — ASME MUST Chapter</h4><p>Coordinated management activities and supported event planning and execution.</p></div>
+        <div class="glass card reveal"><h4>🌍 Campus Ambassador — Eco Friend</h4><p>Supported campus environmental awareness and sustainability engagement.</p></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="section-title reveal"><span class="mono">06.</span> Get In Touch</h2>
+      <div class="glass card contact reveal">
+        <p>I'm open to <strong>Junior Reliability Engineer</strong>, maintenance and mechanical engineering opportunities. Feel free to reach out!</p>
+        <div class="contact-list">
+          <a class="contact-item" href="mailto:sheikhtanzilurrehman@gmail.com"><span>✉️</span>sheikhtanzilurrehman@gmail.com</a>
+          <a class="contact-item" href="tel:+923179373515"><span>📞</span>+92 317-9373515</a>
+          <a class="contact-item wa" href="https://wa.me/923179373515" target="_blank" rel="noopener"><span class="wa-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.94.95-3.48-.22-.36a9.43 9.43 0 1 1 8 4.41zm8.02-17.45A11.32 11.32 0 0 0 12.05.72C5.8.72.72 5.8.72 12.05c0 2 .52 3.95 1.52 5.67L.62 23.6l6.01-1.58a11.3 11.3 0 0 0 5.42 1.38h.01c6.25 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.32-8.02z"/></svg></span>Chat on WhatsApp</a>
+          <a class="contact-item" href="https://www.linkedin.com/in/sheikh-tanzil-ur-rehman-125092360" target="_blank" rel="noopener"><span>💼</span>LinkedIn Profile</a>
+          <div class="contact-item"><span>📍</span>Muzaffarabad, Azad Jammu &amp; Kashmir, Pakistan</div>
+        </div>
+        <div class="hero-btns center">
+          <a href="mailto:sheikhtanzilurrehman@gmail.com" class="btn primary">Send Email</a>
+          <a href="https://wa.me/923179373515" class="btn wa-btn" target="_blank" rel="noopener">WhatsApp Me</a>
+          <a href="Sheikh_Tanzil_ur_Rehman_CV_ATS.pdf" class="btn ghost" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="mono small">© <span id="year"></span> Sheikh Tanzil-ur-Rehman · Engineered with precision ⚙</p>
+  </footer>
+
+  <!-- Project modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box glass">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <a class="wa-float" href="https://wa.me/923179373515" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.94.95-3.48-.22-.36a9.43 9.43 0 1 1 8 4.41zm8.02-17.45A11.32 11.32 0 0 0 12.05.72C5.8.72.72 5.8.72 12.05c0 2 .52 3.95 1.52 5.67L.62 23.6l6.01-1.58a11.3 11.3 0 0 0 5.42 1.38h.01c6.25 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.32-8.02z"/></svg></a>
+  <button class="to-top glass" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
